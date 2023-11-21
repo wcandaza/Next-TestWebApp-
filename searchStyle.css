@@ -1,0 +1,54 @@
+#searchDivContainer{
+    height: 12.5%;
+    background-color: rgb(218, 226, 239);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#searchDiv1{
+    height: 12.5%;
+    background-color: rgb(218, 226, 239);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#searchDiv2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: .4em;
+}
+#savebutton{
+    background-color: rgb(33, 215, 169); 
+    border: none; 
+    color: white;
+    padding: .5em;
+    margin: .2em;
+}
+.smallbutton{
+    padding: .5em;
+    margin: .2em;
+    border: none;
+    color: white;
+    background-color: rgb(67, 66, 66);
+}
+
+.FCVDesign{
+    width: 230px;
+    height: 20px;
+    padding: .5em;
+    margin: .2em;
+    color: rgb(4, 3, 3);
+    font-size: 2em;
+    font-weight: bold; 
+}
+
+#FCV{
+    border-top-style: solid;
+    border-top-color: rgb(33, 215, 169);
+}
+#PromiseDate{
+    border-top-style: solid;
+    border-top-color: rgb(117, 113, 111);
+}

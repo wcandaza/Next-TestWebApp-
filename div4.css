@@ -1,0 +1,22 @@
+#locationLevelList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-weight: bold;
+    background-color: red;
+}
+#locationLevelList li{
+    padding: .3em;
+}
+#locationLevelContinuationList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-weight: bold;
+    background-color: blue;
+}
+#locationLevelContinuationList{
+    padding: .3em;
+}

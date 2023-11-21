@@ -1,0 +1,17 @@
+body{margin: 0; font-family: 'Raleway', sans-serif;}
+#MainContainer{display: flex; flex-direction: row;}
+#div1{width: 13%; background-color: rgb(58, 62, 58); height: 100%vh;}
+#div2{width: 100%; background-color: rgb(235, 235, 242); height: 60%vh;}
+#div3{width: 13%; background-color: rgb(58, 62, 58); height: 100vh;}
+#div4{width: 100%; height: 40%;}
+#ContainerDiv2Div4{width: 74%; height: 100%vh;}
+
+.listTypeRemove{
+    list-style-type: none;
+}
+.listTypeRemove li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: .5em;
+    color: white;
+}

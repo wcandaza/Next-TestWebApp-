@@ -1,0 +1,124 @@
+#searchBody{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#OrderSummaryBox{
+    height: 480;
+    width: 37%;
+    margin-left: .5em;
+    margin-right: .5em;
+    border-style: solid;
+    border-color: rgb(33, 215, 169);
+}
+#RecordSubjectBox{
+    height: 300px;
+    width: 38%;
+    margin-left: .5em;
+    margin-right: .5em;
+    border-style: solid;
+    border-color: rgb(33, 215, 169);
+}
+#summaryContainer{
+    height: 480px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+#LocationSummaryBox{
+    width: 95%;
+    height: 180px;
+    border-style: solid;
+    border-color: rgb(33, 215, 169);
+    margin-bottom: 2px;
+
+}
+#ClientSummaryBox{
+    width: 95%;
+    height: 180px;
+    border-style: solid;
+    border-color: rgb(33, 215, 169);
+    font-size: smaller;
+}
+#BillingSummaryBox{
+    width: 95%;
+    height: 100px;
+    border-style: solid;
+    border-color: rgb(33, 215, 169);
+}
+
+
+#orderSummaryList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-weight: bold;
+}
+#orderSummaryList li{
+    padding: .3em;
+}
+.greyBGC{
+    background-color: rgb(223, 216, 216);
+}
+#orderSummaryData{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-weight: bold;
+}
+#orderSummaryData li{
+    padding: .3em;
+}
+
+#recordSubjectList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-weight: bold;
+}
+#recordSubjectData{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-weight: bold;
+}
+#recordSubjectList li{
+    padding: .3em;
+}
+#recordSubjectData li{
+    padding: .3em;
+}
+#locationSummaryList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-weight: bold;
+}
+#locationSummaryList{
+    padding: .3em;
+}
+#clientSummaryList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-weight: bold;
+}
+#clientSummaryList li{
+    padding: .3em;
+}
+#billingSummryList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    font-weight: bold;}
+#billingSummryList li{
+    padding: .3em;
+}

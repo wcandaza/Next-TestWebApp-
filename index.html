@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="defaultstyle.css">
+    <link rel="stylesheet" href="right-panel.css">
+    <link rel="stylesheet" href="searchStyle.css">
+    <link rel="stylesheet" href="searchBody.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="div4.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="MainContainer">
+        <div id="div1">
+            <ul class="listTypeRemove">
+                <li>Work Bench Menu</li>
+                <li>Locations</li>
+                <li>FE My View</li>
+                <li>Add Multiple Status</li>
+                <li>Search Orders</li>
+                <li>Film Breakdown Task List</li>
+            </ul>
+        </div>
+        
+        <div id="ContainerDiv2Div4"> 
+            <div id="div2">
+                <div id="searchDivContainer">
+                    <div id="searchDiv1">
+                        <button id="savebutton">Save</button>
+                        <button class="smallbutton">Cancel</button>
+                        <button class="smallbutton">Collapse All</button>
+                        <button class="smallbutton">View Entire Order</button>
+                    </div>
+                    <div id="searchDiv2">
+                        <div id="FCV" class="FCVDesign"> <center>First Call Verification</center> </div>
+                        <div id="PromiseDate" class="FCVDesign"> <center>Promise Date/Appointment Date</center> </div>
+                    </div>
+                </div>
+                <hr style="border-top: 1px solid rgb(113, 111, 111);">
+                <div id="searchBody">
+                    <div id="OrderSummaryBox">
+                        <div style="background-color: rgb(33, 215, 169); padding: .5em; color: white; font-weight: bold;">Order Summary</div>
+                        <div style="display: flex; flex-direction: row;">
+                            <ul id="orderSummaryList">
+                                <li>Due Date:</li>
+                                <li class="greyBGC"># of Days Past Due:</li>
+                                <li>Schedule Date:</li>
+                                <li class="greyBGC"># of Days in Queue:</li>
+                                <li>Calls Made:</li>
+                                <li class="greyBGC">Served  Date:</li>
+                                <li>Method Service:</li>
+                                <li class="greyBGC">RD Type:</li>
+                                <li>Form Type:</li>
+                                <li class="greyBGC">Overall Due Date:</li>
+                                <li>Depo Date</li>
+                                <li class="greyBGC">Medical Records Request</li>
+                            </ul>
+                            <ul id="orderSummaryData">
+                                <li>as</li>
+                                <li class="greyBGC">sd</li>
+                                <li>df</li>
+                                <li class="greyBGC">sdf</li>
+                                <li>cv</li>
+                                <li class="greyBGC">asdf</li>
+                                <li>asdf</li>
+                                <li class="greyBGC">asdf</li>
+                                <li>qwer</li>
+                                <li class="greyBGC">dcxcv</li>
+                                <li>szxcv</li>
+                                <li class="greyBGC">wqerdc</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div id="RecordSubjectBox" >
+                    <div style="background-color: rgb(33, 215, 169); padding: .5em; color: white; font-weight: bold;">Record Subject</div>
+                    <div style="display: flex; flex-direction: row;">   
+                        <ul id="recordSubjectList">
+                            <li>Name:</li>
+                            <li class="greyBGC">AKA:</li>
+                            <li>Gender:</li>
+                            <li class="greyBGC">SSN:</li>
+                            <li>DOB:</li>
+                            <li class="greyBGC">Date of Death:</li>
+                            <li>Ref #:</li>  
+                        </ul>
+                        <ul id="recordSubjectData">
+                            <li>Jasper Keyes</li>
+                            
+                            <li class="greyBGC"><input type="text"></li>
+                            <li>
+                                <form action="">
+                                    <label for=""><input type="radio" name="gender" >Male</label> 
+                                    <label for=""><input type="radio" name="gender">Female</label> 
+                                </form>
+                            </li>
+                            <li class="greyBGC"><input type="number" placeholder="xxx-xx-xxxx"></li>
+                            <li>
+                                <input type="date">
+                            </li>
+                            <li class="greyBGC">
+                                <input type="text">
+                            </li>
+                            <li>
+                                <input type="text">
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+            
+                    <div id="summaryContainer">
+                        <div id="LocationSummaryBox">
+                            <div style="background-color: rgb(33, 215, 169); padding: .5em; color: white; font-weight: bold;">Location Summary</div>
+                            <ul id="locationSummaryList">
+                                <li>Location Name</li>
+                                <li>Saddleback Memorial Center.</li>
+                                <li>Billing</li>
+                                <li>Clause Information:</li>
+                                <li>Billing</li>
+                            </ul>
+                        </div>
+                        <div id="ClientSummaryBox">
+                            <div style="background-color: rgb(33, 215, 169); padding: .5em; color: white; font-weight: bold;">Client Summary</div>
+                            <ul id="clientSummaryList">
+                                <li>Client Name</li>
+                                <li>Bellinger Seaget Turnet Barnes &</li>
+                                <li>Associates</li>
+                                <li>Ordering Attorney</li>
+                                <li>Alex Vertugo</li>
+                            </ul>
+                        </div>
+                        <div id="BillingSummaryBox">
+                            <div style="background-color: rgb(33, 215, 169); padding: .5em; color: white; font-weight: bold;">Billing Summary</div>
+                            <ul id="billingSummryList">
+                                <li>Date of Loss</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="div4">
+                <div style="background-color: rgb(33, 215, 169); padding: .5em; color: white; font-weight: bold;">Location Summary</div>
+                <div style="display: flex; flex-direction: row;">
+                    <ul id="locationLevelList">
+                        <li class="greyBGC">
+                            <label for=""><input type="checkbox">Location Level(All Record and Sub Record Types)</label>
+                        </li>
+                        <li class="greyBGC" style="font-size: x-small;padding-left: 3em;">(Status Application to all the requested record types)</li>
+                        <li >
+                            <label for=""><input type="checkbox">Billing</label>
+                        </li>
+                        <li style="margin-left: 3em;">
+                            <label for=""><input type="checkbox">Custodian Certification</label>
+                        </li>
+                        <li style="font-size: x-small; margin-left: 1em;">Custodian: Custodian of Products - Medical | Phone: 636-947-5000</li>
+                    </ul>
+                    <ul id="locationLevelContinuationList">
+                        <li>Status Type:</li>
+                        <li>
+                            <input type="">
+                        </li>
+                        <li>System Description</li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+        <div id="div3">
+            <div id="activeOrder">
+                <ul>
+                    <li>Order Locations</li>
+                    <li></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="listTypeRemove">
+                    <li>First Call Verification</li>
+                    <li>Set FE Callback Date</li>
+                    <li>View Location Profile</li>
+                    <li>Add Locations</li>
+                    <li>View Historical Orders</li>
+                    <li>Generate Forms / Letters</li>
+                    <li>Tag Documents</li>
+                    <li>View Packet</li>
+                    <li>State Rules and Regulations</li>
+                    <li>Payments</li>
+                    <li>Print Barcode</li>
+                    <li>Print Barcode for Records</li>
+                    <li>View Route Calendar</li>
+                    <li>View Client Profile</li>
+                    <li>Film Breakdown</li>
+                    <li>Key Events</li>
+                    <li>Router Order Jobs</li>
+                    <li>View Locations</li>
+                    <li>View Status History</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
